@@ -1,0 +1,19 @@
+body {
+	background-image: url("/assets/grass.png");
+}
+
+.game-box {
+	background-image: url("/assets/dark_grass.png");
+}
+
+.screenshot {
+	border-color: white;
+	border: solid;
+}
+
+a:link, a:visited {
+	color: #fff;
+}
+a:hover {
+	color: #ccc;
+}

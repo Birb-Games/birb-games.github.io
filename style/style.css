@@ -17,6 +17,11 @@ body {
 	text-align: center;
 	font-size: 56px;
 	font-family: EightBitOperatorPlusBold;
+	text-shadow: 6px 6px #aaa;
+}
+.heading:hover {
+	color: #ccc;
+	text-shadow: 6px 6px #999;
 }
 
 #logo {
@@ -39,6 +44,14 @@ body {
 
 	justify-content: center;
 	display: flex;
+}
+
+.game-box {
+	border-radius: 32px;
+	background-color: #333;
+	color: white;
+	padding: 40px;
+	margin: 32px;
 }
 
 .game-link {
@@ -69,12 +82,33 @@ footer {
 }
 
 /* Links to other locations */
-a:link {
+a:link, a:visited {
 	color: #00CCFF;
-}
-a:visited {
-	color: #0099EE;
 }
 a:hover {
 	color: #FF00AA;
+}
+
+.header-link {
+	text-decoration: none;
+}
+
+.description {
+	font-family: EightBitOperatorPlus;
+}
+
+.subheading {
+	font-family: EightBitOperatorPlusBold;
+	font-size: 30px;
+}
+
+.subsubheading {
+	font-family: EightBitOperatorPlusBold;
+	font-size: 22px;
+}
+
+.screenshot {
+	max-width: 540px;
+	border-radius: 20px;
+	margin: 12px;
 }
