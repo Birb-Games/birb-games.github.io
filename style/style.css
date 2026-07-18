@@ -1,0 +1,80 @@
+body {
+	background-color: #222;
+}
+
+@font-face {
+	font-family: EightBitOperatorPlus;
+	src: url("/assets/fonts/8BitOperator/8bitOperatorPlus-Regular.ttf");
+}
+
+@font-face {
+	font-family: EightBitOperatorPlusBold;
+	src: url("/assets/fonts/8BitOperator/8bitOperatorPlus-Bold.ttf");
+}
+
+.heading {
+	color: white;
+	text-align: center;
+	font-size: 56px;
+	font-family: EightBitOperatorPlusBold;
+}
+
+#logo {
+	display: flex;
+	width: 180px;
+	margin: auto;
+	border: solid;
+	border-color: #65c6d7;
+	border-radius: 15px;
+	border-width: 4px;
+	padding: 8px;
+}
+
+.game-display {
+	border-radius: 32px;
+	background-color: #333;
+	color: white;
+	padding: 40px;
+	margin: 32px;
+
+	justify-content: center;
+	display: flex;
+}
+
+.game-link {
+	text-decoration: none;
+	position: relative;
+}
+
+.game-image {
+	max-width: 315px;
+	padding: 10px;
+	border-radius: 10px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.game-image:hover {
+	border: solid;
+	border-color: white;
+	border-width: 3px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: EightBitOperatorPlus;
+}
+
+/* Links to other locations */
+a:link {
+	color: #00CCFF;
+}
+a:visited {
+	color: #0099EE;
+}
+a:hover {
+	color: #FF00AA;
+}
